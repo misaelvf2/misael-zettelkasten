@@ -1,0 +1,152 @@
+{
+  "main": {
+    "id": "5c940765757f188d",
+    "type": "split",
+    "children": [
+      {
+        "id": "b9e32dbd6295f4cc",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "What is AVRA.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "1b50bd9b58d9fbcd",
+    "type": "split",
+    "children": [
+      {
+        "id": "48b4935f366b7e14",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4ef9ec3ba0931a4c",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "68b29340f81adad3",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#AVRA",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "dfc9db3f984b7fad",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "6de5f14b963e6ba9",
+    "type": "split",
+    "children": [
+      {
+        "id": "11b0a46a2f3022b3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ea6d21b3edb229e4",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "What is AVRA.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "3c500e0b885b8bc4",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "What is AVRA.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "2f50ac895ce90c53",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "1d96670d9afb1fcf",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "What is AVRA.md"
+              }
+            }
+          },
+          {
+            "id": "9d88a4cd781d5368",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "b9e32dbd6295f4cc",
+  "lastOpenFiles": [
+    "Expert Systems.md",
+    "System Scanning.md",
+    "Work Kanban.md",
+    "Automated Fact Generation.md",
+    "What is AVRA.md",
+    "202209200116.md",
+    "2022-09-20.md",
+    "202209200114.md",
+    "202209200113.md",
+    "202209200105.md"
+  ]
+}
