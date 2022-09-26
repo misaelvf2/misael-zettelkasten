@@ -52,12 +52,12 @@ def generate_subsets(nums):
 The powerset of a set $S$ contains $2^n$ subsets. We need to enumerate all such subsets. Therefore, the time complexity is $O(2^n)$.
 
 ### Space Complexity
-There are a couple of things to consider for the space complexity. For one thing, we are storing the list of subsets in a variable $subsets$. We already know that there will be $2^n$ such subsets, so the list will grow to a size $O(2^n)$. We also need to consider the recursive nature of the algorithm. The call graph will generate a binary tree; this tree will have a maximum depth of $n$. Therefore, we will need to allocate $O(n)$ space in the stack.
+There are a couple of things to consider for the space complexity. For one thing, we are storing the list of subsets in a variable $subsets$. We already know that there will be $2^n$ such subsets, so the list will grow to a size $O(2^n)$. We also need to consider the recursive nature of the algorithm. The call graph will generate a binary tree; this tree will have a maximum depth of $n$. Therefore, we will need to allocate $O(n)$ space on the stack.
 
 Therefore, the space complexity is $O(2^n)$. 
 
 > [!INFO]
-> We are assuming that the problem asks us to *return* all the subsets. If we are merely asked to print them, then there is no need to maintain the list of subsets, and the space complexity is determined solely by the need to allocate space in the stack.
+> We are assuming that the problem asks us to *return* all the subsets. If we are merely asked to print them, then there is no need to maintain the list of subsets, and the space complexity is determined solely by the need to allocate space on the stack.
 
 ## Iterative Approach
 The iterative approach is based on the mapping of subsets to binary numbers. It generates each subset by counting binary numbers starting from 0 to $2^n - 1$. For each generated subset, we need to map back to the original representation by iterating over the bits and determining whether an element is included in the subset or not, by testing whether the corresponding bit is set to 1. 

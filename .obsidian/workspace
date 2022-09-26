@@ -7,7 +7,7 @@
         "id": "d7e92fd0ff0aebd2",
         "type": "leaf",
         "state": {
-          "type": "empty",
+          "type": "graph",
           "state": {}
         }
       }
@@ -129,17 +129,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "4ef9ec3ba0931a4c",
+  "active": "d7e92fd0ff0aebd2",
   "lastOpenFiles": [
+    "Expert Systems.md",
+    "Generating Subsets.md",
+    "2022-09-25.md",
     "What is AVRA.md",
     "Work Kanban.md",
     "System Scanning.md",
     "Complete Search.md",
-    "Expert Systems.md",
-    "Generating Subsets.md",
     "Bit Operations.md",
     "Pasted image 20220925191135.png",
-    "Dynamic Programming.md",
-    "202209242203.md"
+    "Dynamic Programming.md"
   ]
 }
