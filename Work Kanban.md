@@ -4,9 +4,22 @@ kanban-plugin: basic
 
 ---
 
+## Backlog
+
+
+
 ## To-Do
 
-- [ ] Create slides on payload-EyasSat interfacing #PNNL
+
+
+## Doing
+
+
+
+## Done
+
+**Complete**
+- [x] Create slides on payload-EyasSat interfacing #PNNL
 
 
 

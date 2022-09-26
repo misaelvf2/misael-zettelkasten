@@ -4,15 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "b9e32dbd6295f4cc",
+        "id": "d7e92fd0ff0aebd2",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "What is AVRA.md",
-            "mode": "source",
-            "source": false
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -77,7 +73,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "What is AVRA.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +89,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "What is AVRA.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -116,9 +110,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "What is AVRA.md"
-              }
+              "state": {}
             }
           },
           {
@@ -129,24 +121,25 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
     "width": 300,
     "collapsed": true
   },
-  "active": "b9e32dbd6295f4cc",
+  "active": "4ef9ec3ba0931a4c",
   "lastOpenFiles": [
-    "Expert Systems.md",
-    "System Scanning.md",
-    "Work Kanban.md",
-    "Automated Fact Generation.md",
     "What is AVRA.md",
-    "202209200116.md",
-    "2022-09-20.md",
-    "202209200114.md",
-    "202209200113.md",
-    "202209200105.md"
+    "Work Kanban.md",
+    "System Scanning.md",
+    "Complete Search.md",
+    "Expert Systems.md",
+    "Generating Subsets.md",
+    "Bit Operations.md",
+    "Pasted image 20220925191135.png",
+    "Dynamic Programming.md",
+    "202209242203.md"
   ]
 }
