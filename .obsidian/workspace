@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "d7e92fd0ff0aebd2",
+        "id": "aa0f1230d5c11a42",
         "type": "leaf",
         "state": {
           "type": "graph",
@@ -57,7 +57,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "6de5f14b963e6ba9",
@@ -122,24 +123,24 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
     "width": 300,
     "collapsed": true
   },
-  "active": "d7e92fd0ff0aebd2",
+  "active": "aa0f1230d5c11a42",
   "lastOpenFiles": [
-    "Expert Systems.md",
-    "Generating Subsets.md",
-    "2022-09-25.md",
-    "What is AVRA.md",
+    "LeetCode.md",
+    "LC 78 - Subsets.md",
     "Work Kanban.md",
+    "What is AVRA.md",
     "System Scanning.md",
+    "Pasted image 20220925191135.png",
+    "Expert Systems.md",
     "Complete Search.md",
     "Bit Operations.md",
-    "Pasted image 20220925191135.png",
-    "Dynamic Programming.md"
+    "Automated Fact Generation.md"
   ]
 }
