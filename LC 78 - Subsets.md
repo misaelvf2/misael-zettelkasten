@@ -17,8 +17,6 @@ $\{1\}$ -> 0b10
 $\{2\}$ -> 0b11
 $\{0, 1, 2\}$ -> 0b111
 
----
-
 This problem may either be solved recursively or iteratively.
 
 ## Recursive Approach

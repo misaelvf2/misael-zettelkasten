@@ -36,7 +36,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#AVRA",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -57,8 +57,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "6de5f14b963e6ba9",
@@ -133,14 +132,14 @@
   "active": "aa0f1230d5c11a42",
   "lastOpenFiles": [
     "LeetCode.md",
+    "LC 46 - Permutations.md",
     "LC 78 - Subsets.md",
+    "202209300028.md",
+    "LC 39 - Combination Sum.md",
     "Work Kanban.md",
     "What is AVRA.md",
     "System Scanning.md",
     "Pasted image 20220925191135.png",
-    "Expert Systems.md",
-    "Complete Search.md",
-    "Bit Operations.md",
-    "Automated Fact Generation.md"
+    "Expert Systems.md"
   ]
 }
