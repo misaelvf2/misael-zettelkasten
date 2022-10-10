@@ -7,8 +7,12 @@
         "id": "aa0f1230d5c11a42",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "LeetCode.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -73,6 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "LeetCode.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "LeetCode.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -110,7 +116,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "LeetCode.md"
+              }
             }
           },
           {
@@ -122,24 +130,23 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "active": "aa0f1230d5c11a42",
   "lastOpenFiles": [
+    "LC 39 - Combination Sum.md",
     "LeetCode.md",
     "LC 46 - Permutations.md",
-    "LC 78 - Subsets.md",
-    "202209300028.md",
-    "LC 39 - Combination Sum.md",
-    "Work Kanban.md",
-    "What is AVRA.md",
-    "System Scanning.md",
-    "Pasted image 20220925191135.png",
-    "Expert Systems.md"
+    "Permutations.md",
+    "LC 90 - Subsets II.md",
+    "Combinations.md",
+    "Automated Fact Generation.md",
+    "Complete Search.md",
+    "202210042038.md",
+    "LC 78 - Subsets.md"
   ]
 }

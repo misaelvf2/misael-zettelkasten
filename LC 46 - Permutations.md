@@ -5,7 +5,7 @@ Difficulty:  <mark style="background: #FFB86CA6;">Medium</mark>
 
 ## Problem: Given an array of $n$ distinct integers, return all possible permutations of the array
 
-A permutation is a reordering of elements. Suppose we have a list of integers $[1, 2, 3]$. The following are all the permutations of this list:
+A [[Permutations|permutation]] is a reordering of elements. Suppose we have a list of integers $[1, 2, 3]$. The following are all the permutations of this list:
 
 - $[1, 2, 3]$
 - $[1, 3, 2]$

@@ -4,13 +4,17 @@
 
 Difficulty: <mark style="background: #FFB86CA6;">Medium</mark>
 
-## Problem: Given a set S with n elements, generate all the subsets of S
+## Problem Statement
+>Given an integer array `nums` of **unique** elements, return _all possible subsets (the power set)_.
+>
+>The solution set **must not** contain duplicate subsets. Return the solution in **any order**.
 
 Suppose we are given a set of numbers $A = \{0, 1, 2\}$. We are asked to generate (or enumerate) all the subsets of $A$. In mathematical terms, this is also known as the power set of $A$, denoted $P(A)$. Here, $P(A) = \{\{\}, \{0\}, \{1\}, \{2\}, \{0, 1\}, \{0, 2\}, \{1, 2\}, \{0, 1, 2\}\}$.
 
 The powerset of any arbitrary set $S$ will always contain $2^n$ elements, where n is the number of elements in $S$. This is because, when constructing a subset of $S$, we have 2 options for every element: we may either include it, or we may not include it.
 
 It is often helpful to think of this problem in terms of the binary numbers. We can define a mapping from subsets to binary numbers as follows:
+
 $\{\}$ -> 0b0
 $\{0\}$ -> 0b1
 $\{1\}$ -> 0b10
@@ -20,10 +24,9 @@ $\{0, 1, 2\}$ -> 0b111
 This problem may either be solved recursively or iteratively.
 
 ## Recursive Approach
-In this approach, imagine we have a binary tree, starting with the $0th$ element as the root node.
-At every step, we have the choice of either including the ith element in our subset, or **not** including it in the subset.
+In this approach, imagine we have a decision tree, starting with the $0th$ element as the root node. At every step, we have the choice of either including the ith element in our subset, or **not** including it in the subset.
 
-This approach is also called [[Backtracking|backtracking]].
+This follows a general algorithmic called [[Backtracking|backtracking]].
 
 ![[Pasted image 20220925191135.png]]
 
@@ -68,7 +71,7 @@ Testing whether a particular bit is set to 1 is a straightforward [[Bit Operatio
 
 For example:
 B = 0b1101
-To determine if the 2th bit position is set, perform 0b1101 AND 0b100 = 0b1000 $!=$ 0; therefore, the 2th bit is indeed set.
+To determine if the 2nd bit position is set, perform 0b1101 AND 0b100 = 0b1000 $!=$ 0; therefore, the 2nd bit is indeed set.
 
 ```python
 def generate_subsets(nums):
@@ -82,6 +85,7 @@ def generate_subsets(nums):
         subsets.append(subset)
     return subsets
 ```
+
 ### Time Complexity
 We still need to generate and store all $2^n$ subsets, so the time complexity remains unchanged at $O(n \times 2^n)$.
 
